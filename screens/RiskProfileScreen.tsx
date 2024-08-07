@@ -29,8 +29,6 @@ export const RiskProfileScreen = () => {
       // );
       const total_perc = calculatePercentage(question['questionAnswer'], 10);
 
-      console.log('TOTAL', total_perc);
-
       risk_score += total_perc;
     });
 
